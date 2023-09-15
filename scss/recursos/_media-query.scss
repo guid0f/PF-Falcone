@@ -1,0 +1,11 @@
+@media (max-width: 1379px) {
+    #main-index {
+        grid-template-columns: 100%;
+        grid-template-areas:
+            ". ."
+            "grande"
+            "grande"
+            "parrafo1"
+            "parrafo1";
+    }
+}
