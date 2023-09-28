@@ -137,6 +137,11 @@ footer {
   padding: 20px;
   gap: 20px;
 }
+@media (min-width: 1000px) {
+  #main-nosotros {
+    height: 100vh;
+  }
+}
 #main-nosotros p {
   font-family: Roboto;
   font-size: 20px;
