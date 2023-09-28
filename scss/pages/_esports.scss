@@ -1,5 +1,11 @@
 #main-esports {
-    height: 100vh;
+
+    @media (min-width: 1000px) {
+        height: 100vh;
+
+    }
+
+    padding-bottom: 20px;
 
     .titulo {
         font-family: Roboto;
@@ -33,9 +39,3 @@
         font-size: 25px;
     }
 }
-
-footer {
-    position: none;
-}
-
-// 

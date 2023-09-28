@@ -58,7 +58,12 @@ footer {
 
 #main-contacto {
   padding: 0 20px;
-  height: 100vh;
+  padding-bottom: 20px;
+}
+@media (min-width: 1000px) {
+  #main-contacto {
+    height: 100vh;
+  }
 }
 #main-contacto .redes {
   padding: 0 30px;
@@ -113,6 +118,8 @@ footer {
 }
 #main-index p {
   font-family: Roboto;
+  font-weight: bolder;
+  font-size: 40px;
 }
 @media (max-width: 1000px) {
   #main-index {
@@ -132,6 +139,7 @@ footer {
 }
 #main-nosotros p {
   font-family: Roboto;
+  font-size: 20px;
 }
 @media (max-width: 1000px) {
   #main-nosotros {
@@ -143,7 +151,12 @@ footer {
 }
 
 #main-esports {
-  height: 100vh;
+  padding-bottom: 20px;
+}
+@media (min-width: 1000px) {
+  #main-esports {
+    height: 100vh;
+  }
 }
 #main-esports .titulo {
   font-family: Roboto;
@@ -169,8 +182,4 @@ footer {
 #main-esports .titulo-juego {
   font-family: Roboto;
   font-size: 25px;
-}
-
-footer {
-  position: none;
 }/*# sourceMappingURL=style.css.map */
