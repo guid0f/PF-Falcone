@@ -1,0 +1,41 @@
+#main-esports {
+    height: 100vh;
+
+    .titulo {
+        font-family: Roboto;
+        text-align: center;
+        padding: 20px;
+        color: #9147ff;
+
+    }
+
+    .juegos {
+        padding: 0 30px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        div {
+
+            img {
+                padding: 30px;
+            }
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    .titulo-juego {
+        font-family: Roboto;
+        font-size: 25px;
+    }
+}
+
+footer {
+    position: none;
+}
+
+// 

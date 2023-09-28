@@ -1,0 +1,21 @@
+#main-index {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+
+    p {
+        font-family: Roboto;
+    }
+
+    @media (max-width: 1000px) {
+
+        p {
+            text-align: center;
+        }
+
+        flex-direction: column;
+    }
+
+}

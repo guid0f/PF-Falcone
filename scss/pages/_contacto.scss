@@ -1,0 +1,41 @@
+#main-contacto {
+    padding: 0 20px;
+    height: 100vh;
+
+    .redes {
+        padding: 0 30px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        div {
+
+            img {
+                padding: 50px;
+            }
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    .titulo {
+        font-family: Roboto;
+        text-align: center;
+        padding: 20px;
+        color: #9147ff;
+
+    }
+
+    .redes {
+        .card {
+            .card-body {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}
