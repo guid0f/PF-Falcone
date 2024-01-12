@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Guido Falcone" />
-    <meta name="description" content="Aca vas a poder enviarnos tu informacion para poder tenerte en cuenta en nuestro proyecto para potenciar tu carrera." />
+    <meta name="description"
+        content="Aca vas a poder enviarnos tu informacion para poder tenerte en cuenta en nuestro proyecto para potenciar tu carrera." />
     <meta name="keywords" content="Nombre Completo, registrate, sign in, gamers, free agents, carrera">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,33 +29,37 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../pages/nosotros.html">About us</a></li>
                 <li><a href="../pages/esports.html">Esports</a></li>
-                <li><a class="active" href="../pages/registrate.html">Sign in</a>
+                <li id="sign-up"><a class="active" href="../pages/registrate.html">Sign up</a>
+                <li id="sign-in"><a href="../pages/iniciar-sesion.html">Sign in</a></li>
                 <li><a href="../pages/contacto.html">Contact</a></li>
+                <li id="sign-out" class="d-none"><button id="btn-out">Cerrar Sesion</button></li>
             </ul>
         </nav>
     </header>
     <main id="main-registrate">
-        <form action="?" method="get">
+        <form action="?" method="get" id="register-form">
             <div>
                 <label for="fullname" class="form-label">Nombre Completo</label>
                 <input type="text" id="fullname" class="form-control" placeholder="Example">
             </div>
             <div>
                 <label for="Email" class="form-label">Email</label>
-                <input type="email" id="Email" class="form-control" placeholder="example@gmail.com">
+                <input type="email" id="email" class="form-control" placeholder="example@gmail.com">
             </div>
             <div>
                 <label for="age" class="form-label">Edad</label>
                 <input type="number" id="age" class="form-control" placeholder="18">
             </div>
+            <div>
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" id="password" class="form-control" placeholder="***********">
+            </div>
 
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" id="nationality">
                 <option selected>Nacionalidad</option>
-                <option value="ARG">Argentina</option>
-                <option value="CL">Chile</option>
-                <option value="PER">Peru</option>
+
             </select>
-            <button type="submit" class="btn btn-dark">Registrarme</button>
+            <button type="submit" class="btn btn-dark" id="button-form">Registrarme</button>
         </form>
 
     </main>
@@ -62,10 +67,13 @@
         <p>Copyright © 2021 | Free Agents. Términos y condiciones</p>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="../scripts/registrate.js"></script>
+    <script src="../scripts/index.js"></script>
+</body>
 </body>
 
 </html>

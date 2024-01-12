@@ -16,15 +16,15 @@ header nav ul {
   gap: 20px;
   list-style: none;
 }
-header nav ul li {
+header nav ul li, header nav ul #btn-out {
   font-family: Roboto;
 }
-header nav ul li a {
+header nav ul li a, header nav ul #btn-out a {
   color: white;
   text-decoration: none;
   transition: all 0.3s ease;
 }
-header nav ul li a:hover {
+header nav ul li a:hover, header nav ul #btn-out a:hover {
   color: #9147ff;
   transition: all 0.3s ease;
 }
@@ -46,6 +46,18 @@ header img {
     margin-top: 15px;
     padding: 0;
   }
+}
+header #btn-out {
+  background-color: transparent;
+  box-shadow: none;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+header #btn-out:hover {
+  color: #9147ff;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 footer {

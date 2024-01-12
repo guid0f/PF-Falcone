@@ -12,7 +12,7 @@ header {
         gap: 20px;
         list-style: none;
 
-        li {
+        li, #btn-out {
             font-family: Roboto;
             a {
                 color: white;
@@ -50,5 +50,16 @@ header {
         align-items: center;
     }
 
+    #btn-out { 
+        background-color: transparent;
+        box-shadow: none;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        &:hover {
+            color: #9147ff;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+    }
 }
-
